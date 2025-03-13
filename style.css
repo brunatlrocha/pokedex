@@ -22,8 +22,9 @@ h1 {
   
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  background-color: dodgerblue;
+  background-color: rgb(255, 30, 30);
   padding: 10px;
 }
   
@@ -161,4 +162,92 @@ a.back-to-top {
   text-align: center;
   margin: 20px;
   font-weight: 700;
+}
+
+@media (max-width: 768px) { /* Tablet view */
+  body {
+    margin: 5px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  nav ul {
+    width: 200px;
+  }
+  main {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+  }
+
+  .pokemon-card {
+    padding: 15px;
+  }
+
+  img {
+    padding: 10px 80px 10px 80px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .description {
+    grid-template-columns: 1fr;
+  }
+
+  .grouppoke p {
+    font-size: 24px;
+  }
+
+  #pokedex {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile view */
+  body {
+    margin: 2px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .pokemon-card {
+    padding: 10px;
+  }
+
+  img {
+    padding: 5px 60px 5px 60px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .description {
+    grid-template-columns: 1fr;
+  }
+
+  .grouppoke p {
+    font-size: 20px;
+  }
+
+  #pokedex {
+    font-size: 30px;
+  }
 }
