@@ -67,8 +67,14 @@ function createPokemonCard(pokemon) {
 
 // Add the word "pokedex" before the navigation bar
 const pokedexDiv = document.createElement('div');
-pokedexDiv.textContent = 'Pokedex';
 pokedexDiv.id = 'pokedex';
+
+const logo = document.createElement('img');
+logo.src = 'logo-pokedex.png';
+logo.alt = 'Logo Pokedex';
+logo.id = 'logo';
+
+pokedexDiv.appendChild(logo);
 document.body.insertAdjacentElement('afterbegin', pokedexDiv);
 
 // Function to create the navigation bar
