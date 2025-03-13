@@ -24,7 +24,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(255, 30, 30);
+  background-color: white;
   padding: 10px;
 }
   
@@ -39,7 +39,7 @@ nav ul {
 nav a {
   margin: 10px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
   
 main {
