@@ -5,6 +5,7 @@ body {
   margin: 10px;
   font-family: Arial, sans-serif;
   background-image: url('pokeball.jpg');
+  background-attachment: fixed;
 }
   
 header {
