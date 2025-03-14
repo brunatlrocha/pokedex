@@ -4,10 +4,7 @@ body {
   min-height: 100vh;
   margin: 10px;
   font-family: Arial, sans-serif;
-  background-image: url('pokeball.jpg');
-  background-attachment: fixed;
-  /*background-size: cover;
-  background-repeat: no-repeat;*/
+  background-color: white;
 }
   
 header {
